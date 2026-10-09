@@ -1,5 +1,8 @@
 import pandas as pd
 
+print("Pandas Version:")
+print(pd.__version__)
+
 # Create a simple DataFrame
 data = {
     'EmployeeId': [1, 2, 3, 4],

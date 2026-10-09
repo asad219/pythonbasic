@@ -1,0 +1,26 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.languageServer": "None",
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.terminal.activateEnvironment": true,
+  "editor.hover.enabled": "on",
+  "editor.parameterHints.enabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  "autopep8.path": "${workspaceFolder}/.venv/bin/autopep8",
+  "autopep8.args": ["--max-line-length=88", "--aggressive"],
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "full",
+    "editor.detectIndentation": false
+  }
+}
