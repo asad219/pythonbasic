@@ -66,5 +66,84 @@ M = np.array([[1,2,3],[4,5,6],[7,8,9]])
 N = np.array([[10,11,12],[13,14,15],[16,17,18], [19,20,21]])
 
 O = np.dot(M, N.T)
-print("Matrix O (from M and N):")
+print("\n\nMatrix O (from M and N):")
 print(O)
+
+
+# variance and standard deviation
+data = np.array([10, 20, 30, 40, 50])
+variance = np.var(data)
+standard_deviation = np.std(data)
+print("\n\nVariance and Standard Deviation of the data:")
+print("Variance:", variance)
+print("Standard Deviation:", standard_deviation)
+
+# Mode (most frequent value) — NumPy has no np.mode(); use unique + counts
+data = np.array([10, 20, 30, 40, 50, 20, 30, 40, 50])
+values, counts = np.unique(data, return_counts=True)
+mode = values[np.argmax(counts)]
+print("\n\nMode of the data:")
+print("Mode:", mode)
+
+# Mean (average)
+data = np.array([10, 20, 30, 40, 50])
+mean = np.mean(data)
+print("\n\nMean of the data:")
+print("Mean:", mean)
+
+
+# Median (middle value)
+data = np.array([10, 20, 30, 40, 50])
+median = np.median(data)
+print("\n\nMedian of the data:")
+print("Median:", median)
+
+# Range (difference between max and min) — don't name it `range` (built-in function)
+data = np.array([10, 20, 30, 40, 50])
+data_range = np.max(data) - np.min(data)
+print("\n\nRange of the data:")
+print("Range:", data_range)
+
+# Quartiles (25%, 50%, 75%)
+data = np.array([10, 20, 30, 40, 50])
+quartiles = np.percentile(data, [25, 50, 75])
+print("Quartiles of the data:")
+print("Quartiles:", quartiles)
+
+# Percentiles (any percentile)
+data = np.array([10, 20, 30, 40, 50])
+percentile = np.percentile(data, 90)
+print("90th Percentile of the data:")
+print("90th Percentile:", percentile)
+
+
+# Number pyramid: row i shows 1 2 ... i
+paramid = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print("\n\nNumber pyramid:")
+for i in paramid:
+    row = np.arange(1, i + 1)  # numbers from 1 up to i
+
+    print(" ".join(map(str, row)))
+
+# Print numbers in rows (3 per line): 1 2 3 / 4 5 6 / ...
+square = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17, 18])
+print("\n\nNumbers in rows (3 per line):")
+grid = square.reshape(-1, 9)  # -1 rows as many as needed, 9 columns // 3 rows, 9 columns // 2 rows, 9 columns
+for row in grid:
+    print(" ".join(map(str, row)))
+    
+
+
+# Star grid: same idea as above, but print * instead of numbers (3 per row)
+print("\n\nStar grid:")
+cols = 9
+total_stars = 18
+stars = np.full(total_stars, "*")  # array of twelve "*"
+star_grid = stars.reshape(-1, cols)
+for row in star_grid:
+    print(" ".join(row))
+
+# Star pyramid: row i has i stars
+for i in range(1, 9): # 1 to 8 stars in each row
+    print(" ".join(np.full(i, "@")))
+
