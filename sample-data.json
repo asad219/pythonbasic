@@ -1,0 +1,272 @@
+[
+  {
+    "Customer ID": "C001",
+    "Region": "Dubai",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 250,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C002",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 180,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C003",
+    "Region": "Sharjah",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 90,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "A",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C004",
+    "Region": "Dubai",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 320,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C005",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 150,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C006",
+    "Region": "Sharjah",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 110,
+    "Satisfaction (1–5)": 2,
+    "Page Version": "B",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C007",
+    "Region": "Dubai",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 450,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C008",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 220,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C009",
+    "Region": "Sharjah",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 80,
+    "Satisfaction (1–5)": 2,
+    "Page Version": "A",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C010",
+    "Region": "Dubai",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 275,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C011",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 130,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "A",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C012",
+    "Region": "Sharjah",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 190,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C013",
+    "Region": "Dubai",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 380,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C014",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 160,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C015",
+    "Region": "Sharjah",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 95,
+    "Satisfaction (1–5)": 2,
+    "Page Version": "A",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C016",
+    "Region": "Dubai",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 290,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C017",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 210,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C018",
+    "Region": "Sharjah",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 140,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "B",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C019",
+    "Region": "Dubai",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 340,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C020",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 200,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C021",
+    "Region": "Sharjah",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 120,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "B",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C022",
+    "Region": "Dubai",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 410,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C023",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 170,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C024",
+    "Region": "Sharjah",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 230,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C025",
+    "Region": "Dubai",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 195,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C026",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 105,
+    "Satisfaction (1–5)": 2,
+    "Page Version": "A",
+    "Purchased": "No"
+  },
+  {
+    "Customer ID": "C027",
+    "Region": "Sharjah",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 160,
+    "Satisfaction (1–5)": 3,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C028",
+    "Region": "Dubai",
+    "Marketing Channel": "Email",
+    "Order Value (AED)": 360,
+    "Satisfaction (1–5)": 5,
+    "Page Version": "B",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C029",
+    "Region": "Abu Dhabi",
+    "Marketing Channel": "Social Media",
+    "Order Value (AED)": 240,
+    "Satisfaction (1–5)": 4,
+    "Page Version": "A",
+    "Purchased": "Yes"
+  },
+  {
+    "Customer ID": "C030",
+    "Region": "Sharjah",
+    "Marketing Channel": "Search",
+    "Order Value (AED)": 100,
+    "Satisfaction (1–5)": 2,
+    "Page Version": "B",
+    "Purchased": "No"
+  }
+]
