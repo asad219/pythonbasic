@@ -124,7 +124,7 @@ def _group_performance_summary(customer_df: pd.DataFrame, group_col: str) -> pd.
         avg_satisfaction=(SAT_COL, "mean"),
         purchase_rate_pct=(PURCHASED_COL, lambda s: (s == "Yes").mean() * 100),
     )
-    return summary.round(2)
+    return summary.round(2)  # pyright: ignore[reportReturnType]
 
 
 def task_3(customer_df: pd.DataFrame) -> None:
@@ -150,7 +150,7 @@ def task_4(customer_df: pd.DataFrame) -> None:
     axes[0].set_xlabel(ORDER_COL)
     axes[0].set_ylabel("Frequency")
 
-    region_means = customer_df.groupby("Region")[ORDER_COL].mean().sort_values()
+    region_means = customer_df.groupby("Region")[ORDER_COL].mean().sort_values()  # pyright: ignore[reportCallIssue, reportAttributeAccessIssue]
     region_means.plot(kind="bar", ax=axes[1], color="coral", edgecolor="black")
     axes[1].set_title("Average Order Value by Region")
     axes[1].set_xlabel("Region")
@@ -187,13 +187,13 @@ def task_5(customer_df: pd.DataFrame) -> None:
     """Task 5: Correlation between satisfaction and order value."""
     print("--- Task 5: Correlation analysis ---")
 
-    correlation = customer_df[SAT_COL].corr(customer_df[ORDER_COL])
+    correlation = customer_df[SAT_COL].corr(customer_df[ORDER_COL])  # pyright: ignore[reportArgumentType]
     r, p_value = stats.pearsonr(customer_df[SAT_COL], customer_df[ORDER_COL])
 
     print(f"Pearson correlation (r): {correlation:.3f}")
     print(f"Scipy pearsonr — r: {r:.3f}, p-value: {p_value:.4f}")
 
-    if p_value < ALPHA:
+    if p_value < ALPHA:  # pyright: ignore[reportOperatorIssue]
         print(f"Result: Significant at α={ALPHA} (higher satisfaction tends to link with order value).")
     else:
         print(f"Result: Not significant at α={ALPHA} (weak evidence of linear relationship).")
@@ -215,7 +215,7 @@ def task_6(customer_df: pd.DataFrame) -> None:
     print(f"  t-statistic: {t_stat:.3f}")
     print(f"  p-value:     {t_p:.4f}")
     print(
-        f"  Conclusion:  {'Significant difference' if t_p < ALPHA else 'No significant difference'} "
+        f"  Conclusion:  {'Significant difference' if t_p < ALPHA else 'No significant difference'} "  # pyright: ignore[reportOperatorIssue]
         f"at α={ALPHA}"
     )
 
@@ -228,7 +228,7 @@ def task_6(customer_df: pd.DataFrame) -> None:
     print(f"  t-statistic: {t_stat_sat:.3f}")
     print(f"  p-value:     {t_p_sat:.4f}")
     print(
-        f"  Conclusion:  {'Significant difference' if t_p_sat < ALPHA else 'No significant difference'} "
+        f"  Conclusion:  {'Significant difference' if t_p_sat < ALPHA else 'No significant difference'} "  # pyright: ignore[reportOperatorIssue]
         f"at α={ALPHA}"
     )
 
@@ -239,7 +239,7 @@ def task_6(customer_df: pd.DataFrame) -> None:
     print(f"  chi²:      {chi2:.3f}")
     print(f"  p-value:   {chi_p:.4f}")
     print(
-        f"  Conclusion: {'Association detected' if chi_p < ALPHA else 'No significant association'} "
+        f"  Conclusion: {'Association detected' if chi_p < ALPHA else 'No significant association'} "  # pyright: ignore[reportOperatorIssue]
         f"at α={ALPHA}"
     )
 
